@@ -10,7 +10,7 @@ st.subheader("Experiment with Temperature & Models")
 st.sidebar.header("Model Configuration")
 model_option = st.sidebar.selectbox(
     "Choose a Model",
-    ("llama3-8b-8192", "mixtral-8x7b-32768", "gemma-7b-it")
+    ("llama-3.1-8b-instant", "llama-3.3-70b-versatile", "mixtral-8x7b-32768")
 )
 
 temp = st.sidebar.slider("Temperature (Randomness)", 0.0, 2.0, 0.7)
